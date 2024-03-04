@@ -1,5 +1,6 @@
 #include <iostream>
-int main() {
+int main()
+{
     // integer (whole number)
     int x = 5;
     int y = 6;
@@ -8,15 +9,14 @@ int main() {
     // std::cout << y << '\n';
     // double (number, including decimal)
     double ten = 0.4;
-    //single character
+    // single character
     char symbol = 'w';
     char currency = '$';
-    //boolean
+    // boolean
     bool isExist = true;
-    //string
+    // string
     std::string name = "ilich";
     std::cout << "Hello, i'm " << name << "\n";
     std::cout << "I'm " << age << " y'o";
     return 0;
 }
-
