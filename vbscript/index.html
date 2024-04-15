@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/vbscript">
+        Dim nameInput
+        Dim ageInput
+
+        nameInput = InputBox("Name:", "Enter a name")
+        If nameInput == "" Then
+        MsgBox "Invalid Data!", vbExclamation, "Error"
+        End If
+
+        ageInput = InputBox("Age:", "Enter your age")
+        If ageInput == "" And IsNumeric(ageInput) Then    
+        MsgBox "Invalid ange!", vbExclamation, "Error"
+        End If
+
+        MsgBox "Thank you! Your data is saved!"
+
+    </script>
+</body>
+
+</html>
+</body>
+
+</html>
